@@ -1,0 +1,93 @@
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #38a867);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: #52c9c9;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.container h2 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #93c5fd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+#nome {
+    margin-top: 25px;
+    color: #111827;
+    font-size: 24px;
+}
+
+#descricao {
+    margin-top: 10px;
+    color: #374151;
+    font-size: 16px;
+}
+
+#preco {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #16a34a;
+    font-size: 20px;
+}
+
+#imagem {
+    margin-top: 20px;
+    width: 220px;
+    max-width: 100%;
+    border-radius: 15px;
+    border: 3px solid #dbeafe;
+    padding: 10px;
+    background-color: #f8fafc;
+}
